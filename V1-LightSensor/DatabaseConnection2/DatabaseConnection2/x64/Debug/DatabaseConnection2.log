@@ -1,0 +1,4 @@
+﻿  dataTable.cpp
+C:\Users\lance\source\repos\DatabaseConnection2\DatabaseConnection2\dataTable.h(144,18): warning C4101: 'myReader': unreferenced local variable
+  dataTable.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  DatabaseConnection2.vcxproj -> C:\Users\lance\source\repos\DatabaseConnection2\x64\Debug\DatabaseConnection2.exe

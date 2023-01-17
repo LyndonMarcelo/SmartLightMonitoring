@@ -1,0 +1,4 @@
+C:\Users\lance\source\repos\DatabaseConnection2\DatabaseConnection2\x64\Debug\DatabaseConnection2.vcxproj.AssemblyReference.cache
+C:\Users\lance\source\repos\DatabaseConnection2\DatabaseConnection2\x64\Debug\DatabaseConnection2.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\lance\source\repos\DatabaseConnection2\DatabaseConnection2\x64\Debug\DatabaseConnection2.dataTable.resources
+C:\Users\lance\source\repos\DatabaseConnection2\DatabaseConnection2\x64\Debug\DatabaseConnection2.vcxproj.GenerateResource.cache

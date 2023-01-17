@@ -1,0 +1,58 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+@section header {
+        <nav class="sticky">
+            <nav class="menu-container">
+                <!-- burger menu -->
+                <input type="checkbox" aria-label="Toggle menu" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!-- logo -->
+                <a asp-area="" asp-page="/Index" class="menu-logo">
+                    <img src="~/lib/lightlogo.png" alt="SmartLight" />
+                </a>
+
+                <!-- menu items -->
+                <div class="menu">
+                    <ul>
+                    </ul>
+                    <ul>
+                      
+                         <li>
+                            <a class"menu" asp-area="" asp-page="/About">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class"menu" asp-area="" asp-page="/Login">
+                                Sign in
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+}
+
+
+<div id="hero-header">
+    <div id="hero-content">
+        <img src="~/lib/lightlogo.png" alt="SmartLight" id="hero-img"/>
+        <h1 id="hero-title"> The Smart Home Lighting Monitoring Web App </H1>
+
+        <p id="hero-text"> With SmartLight, you can easily monitor and control the lighting in your home from anywhere, at any time. Plus, with energy monitoring features, SmartLight helps you reduce your electricity bill by showing you which lights are using the most energy
+            and when. </p>
+
+        <a asp-page="/Login"><button id="hero-button"> Sign in </button></a>
+    </div>
+
+</div>
+

@@ -1,0 +1,65 @@
+﻿@page
+@model LightSensorWebApp.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section header {
+    <nav class="sticky">
+        <nav class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox" aria-label="Toggle menu" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- logo -->
+            <a asp-area="" asp-page="/Index" class="menu-logo">
+                <img src="~/lib/lightlogo.png" alt="SmartLight" />
+            </a>
+
+            <!-- menu items -->
+            <div class="menu">
+                <ul>
+                </ul>
+                <ul>
+                    <li>
+                        <a class"menu" asp-area="" asp-page="/Index">
+                            Back to Home Page
+                        </a>
+                    </li>
+
+
+                    
+                </ul>
+            </div>
+        </nav>
+    </nav>
+}
+
+
+<body>
+    <form id="form_id" method="post" name="myform">
+        <div class="loginbody">
+            <!--login-->
+            <div id="mainButton">
+                <div class="btn-text" onclick="openForm()">Sign In</div>
+                <div class="modal">
+                    <div class="close-button" onclick="closeForm()">x</div>
+                    <div class="form-title">Sign In</div>
+                    <div class="input-group">
+                        <input type="text" id="username" onblur="checkInput(this)" />
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="password" onblur="checkInput(this)" />
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="form-button" onclick="validate()">Go</div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>

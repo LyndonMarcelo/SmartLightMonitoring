@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\nav.css" />
+    <None Include="wwwroot\lib\favicon\android-icon-144x144.png" />
+    <None Include="wwwroot\lib\favicon\android-icon-192x192.png" />
+    <None Include="wwwroot\lib\favicon\android-icon-36x36.png" />
+    <None Include="wwwroot\lib\favicon\android-icon-48x48.png" />
+    <None Include="wwwroot\lib\favicon\android-icon-72x72.png" />
+    <None Include="wwwroot\lib\favicon\android-icon-96x96.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-114x114.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-120x120.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-144x144.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-152x152.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-180x180.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-57x57.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-60x60.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-72x72.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-76x76.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon-precomposed.png" />
+    <None Include="wwwroot\lib\favicon\apple-icon.png" />
+    <None Include="wwwroot\lib\favicon\browserconfig.xml" />
+    <None Include="wwwroot\lib\favicon\favicon-16x16.png" />
+    <None Include="wwwroot\lib\favicon\favicon-32x32.png" />
+    <None Include="wwwroot\lib\favicon\favicon-96x96.png" />
+    <None Include="wwwroot\lib\favicon\favicon.ico" />
+    <None Include="wwwroot\lib\favicon\ms-icon-144x144.png" />
+    <None Include="wwwroot\lib\favicon\ms-icon-150x150.png" />
+    <None Include="wwwroot\lib\favicon\ms-icon-310x310.png" />
+    <None Include="wwwroot\lib\favicon\ms-icon-70x70.png" />
+    <None Include="wwwroot\js\login-script.js" />
+    <None Include="wwwroot\js\nav-script.js" />
+    <None Include="wwwroot\lib\darklogo.png" />
+    <None Include="wwwroot\lib\darklogosolo.png" />
+    <None Include="wwwroot\lib\homebg.jpg" />
+    <None Include="wwwroot\lib\lightbulbhome.png" />
+    <None Include="wwwroot\lib\lightlogo.png" />
+    <None Include="wwwroot\lib\lightlogosolo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>

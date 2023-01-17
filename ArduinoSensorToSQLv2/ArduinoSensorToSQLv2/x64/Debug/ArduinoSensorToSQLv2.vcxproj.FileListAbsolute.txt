@@ -1,0 +1,16 @@
+C:\Users\lance\source\repos\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.AssemblyReference.cache
+C:\Users\lance\source\repos\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\lance\source\repos\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.MyForm.resources
+C:\Users\lance\source\repos\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.GenerateResource.cache
+D:\12.01.2023\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.AssemblyReference.cache
+D:\12.01.2023\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.SuggestedBindingRedirects.cache
+D:\12.01.2023\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.MyForm.resources
+D:\12.01.2023\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.GenerateResource.cache
+C:\Users\dennn\Desktop\eeto gamitin jic\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.AssemblyReference.cache
+C:\Users\dennn\Desktop\eeto gamitin jic\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\dennn\Desktop\eeto gamitin jic\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.MyForm.resources
+C:\Users\dennn\Desktop\eeto gamitin jic\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.GenerateResource.cache
+C:\Users\lance\Desktop\New folder (4)\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.AssemblyReference.cache
+C:\Users\lance\Desktop\New folder (4)\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\lance\Desktop\New folder (4)\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.MyForm.resources
+C:\Users\lance\Desktop\New folder (4)\ArduinoSensorToSQLv2\ArduinoSensorToSQLv2\x64\Debug\ArduinoSensorToSQLv2.vcxproj.GenerateResource.cache

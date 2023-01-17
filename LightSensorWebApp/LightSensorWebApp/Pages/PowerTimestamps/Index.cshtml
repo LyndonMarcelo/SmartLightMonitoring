@@ -1,0 +1,72 @@
+﻿@page
+@model LightSensorWebApp.Pages.PowerTimestamps.IndexModel
+@{
+	 ViewData["Title"] = "Power History";
+}
+
+@section header {
+    <nav class="sticky">
+        <nav class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox" aria-label="Toggle menu" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- logo -->
+            <a asp-area="" asp-page="/Index" class="menu-logo">
+                <img src="~/lib/lightlogo.png" alt="SmartLight" />
+            </a>
+
+            <!-- menu items -->
+            <div class="menu">
+                <ul>
+                </ul>
+                <ul>
+                    <li>
+                        <a class"menu" asp-area="" asp-page="/Index">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class"menu" asp-area="" asp-page="/Login">
+                            Log Out
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+}
+
+<div class="powerstyle"> 
+<h2 class="tablefont">Estimated Power Bill: </h2>
+        <h2 class="tablefont"> P @Model.EnergyBill</h2>
+<h2 class ="tablefont">Light Power History</h2>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Time turned ON</th>
+			<th>Time turned OFF</th>
+		</tr>
+	</thead>
+
+	<tbody>
+
+		@foreach(var item in Model.listPowerTimestamps)
+		{
+			<tr>
+				<td>@item.id</td>
+				<td>@item.timeOn</td>
+				<td>@item.timeOff</td>
+			</tr>
+		}
+
+	</tbody>
+
+</table>
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightSensorWebApp", "LightSensorWebApp\LightSensorWebApp.csproj", "{37055B84-9A78-4A01-8422-28724522FE3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37055B84-9A78-4A01-8422-28724522FE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37055B84-9A78-4A01-8422-28724522FE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37055B84-9A78-4A01-8422-28724522FE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37055B84-9A78-4A01-8422-28724522FE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B2F573F-FA68-4925-84B8-BEFF96EA6595}
+	EndGlobalSection
+EndGlobal

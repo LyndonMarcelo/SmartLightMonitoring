@@ -1,0 +1,62 @@
+﻿@page
+@model LightSensorWebApp.Pages.aboutModel
+@{
+    ViewData["Title"] = "About Us";
+}
+
+@section header {
+        <nav class="sticky">
+            <nav class="menu-container">
+                <!-- burger menu -->
+                <input type="checkbox" aria-label="Toggle menu" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!-- logo -->
+                <a asp-area="" asp-page="/Index" class="menu-logo">
+                    <img src="~/lib/lightlogo.png" alt="SmartLight" />
+                </a>
+
+                <!-- menu items -->
+                <div class="menu">
+                    <ul>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class"menu" asp-area="" asp-page="/Index">
+                                Back to Home Page
+                            </a>
+                        </li>
+                        <li>
+                            <a class"menu" asp-area="" asp-page="/Login">
+                                Sign in
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+}
+
+
+<div id="hero-header-content">
+    <div id="hero-content">
+       <h1 id="hero-title-content"> About Us </H1>
+        <img src="~/lib/about/group-pic-edited-1.png" alt="V's Angels'" id="hero-img-content"/>
+        
+            
+        <p id="hero-text-content">We are a group of 4th year Computer Engineering students from the Pamantasan ng Lungsod ng
+                                  Maynila, where we aim to elevate and raise each other to the best of our abilities, despite
+                                  the hindrances the pandemic is, we still make sure that we support each other and that we are
+                                  able to understand each other, despite whatever comes our way. </p>
+        <p id="hero-text-content">We aim to create and to make creative and fun work in different fields, from design to
+                                  programming, we strive to make the best of our abilities, shining each other and letting
+                                  everyone test their skills and making sure that we are helping each other learn more as we
+                                  dive into life and our paths.</p>
+
+        
+    </div>
+
+</div>

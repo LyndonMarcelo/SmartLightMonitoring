@@ -1,0 +1,67 @@
+﻿
+#hero-header-content {
+    /* width: 100vw; */
+    height: 100vh;
+    /*box-shadow: 3px 3px 2px #bebebe;
+  /* hero-header flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Texy style */
+    text-align: center;
+    color: white;
+    /* Background image */
+    background-image: url("~/lib/homebg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -1;
+}
+
+#hero-img-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 18vw;
+}
+
+#hero-title-content {
+    font-size: 4vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+
+
+}
+
+#hero-text-content {
+    font-size: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#hero-button-content {
+    border: solid 2px white;
+    background-color: inherit;
+    color: white;
+    margin-top: 1%;
+    width: 15%;
+    height: 2.5vw;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+    #hero-button-content:hover {
+        cursor: pointer;
+    }
+
+

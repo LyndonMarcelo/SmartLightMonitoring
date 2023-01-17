@@ -1,0 +1,53 @@
+﻿.tablefont {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.powerstyle {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    font-weight: 400;
+    margin-top:20%;
+    font-size:1rem;
+}
+
+    table.table {
+        margin-top:2%;
+        font-family: "Montserrat", sans-serif;
+        border: 1px solid #1C6EA4;
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table.table td, table.table th {
+        border: 1px solid #AAAAAA;
+        padding: 7px 0px;
+    }
+
+    table.table thead {
+        background: #22223B;
+        background: -moz-linear-gradient(top, #59596c 0%, #38384e 66%, #22223B 100%);
+        background: -webkit-linear-gradient(top, #59596c 0%, #38384e 66%, #22223B 100%);
+        background: linear-gradient(to bottom, #59596c 0%, #38384e 66%, #22223B 100%);
+        border-bottom: 2px solid #444444;
+    }
+
+        table.table thead th {
+            font-size: 15px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-align: center;
+            border-left: 2px solid #D0E4F5;
+        }
+
+            table.table thead th:first-child {
+                border-left: none;
+            }
